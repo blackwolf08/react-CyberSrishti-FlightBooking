@@ -4,4 +4,4 @@ export const formatPrice = (x, currency) => {
 
 
   
-export const productsAPI = "http://localhost:8001/api/products";
+export const productsAPI = "https://api.myjson.com/bins/jgxgs";

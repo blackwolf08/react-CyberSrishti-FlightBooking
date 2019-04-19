@@ -57,7 +57,7 @@ let suggestions = [
 ];
 
 const fetchProducts = async (e) => {
-    fetch('http://localhost:8001/api/products')
+    fetch('https://api.myjson.com/bins/jgxgs')
   .then(response => response.json())
   .then(json => {
       let cities = json.products.map((city) => {
