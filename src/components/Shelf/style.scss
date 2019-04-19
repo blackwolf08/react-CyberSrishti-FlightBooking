@@ -1,0 +1,126 @@
+main {
+  box-sizing: border-box;
+  padding: 100px;
+}
+
+
+.shelf-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 85%;
+  min-height: 600px;
+
+  &-header {
+    width: 100%;
+    margin-bottom: 10px;
+
+    .products-found {
+      float: left;
+      margin: 0;
+      margin-top: 8px;
+    }
+
+    .sort {
+      float: right;
+
+      select {
+        background-color: #eee;
+        outline: none;
+        border: 1px solid #ececec;
+        border-radius: 2px;
+        margin-left: 10px;
+        width: auto;
+        height: 35px;
+        cursor: pointer;
+
+      }
+    }
+  }
+
+  .shelf-item {
+    width: 24%;
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid transparent;
+    cursor: pointer;
+
+    &:hover {
+      border: 1px solid #eee;
+
+      .shelf-item__buy-btn {
+        background-color: #393e46;
+        border-radius: 10px;
+      }
+    }
+
+    .shelf-stopper {
+      position: absolute;
+      color: #eee;
+      top: 10px;
+      right: 10px;
+      padding: 5px;
+      font-size: 0.6em;
+      background-color: transparent;
+      cursor: default;
+    }
+
+    &__thumb {
+      img {
+        width: 100%;
+      }
+    }
+
+    &__title {
+      position: relative;
+      padding: 0 20px;
+      height: 45px;
+
+      &::before {
+        content: '';
+        width: 20px;
+        height: 2px;
+        background-color: #222831;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        margin-left: -10px;
+      }
+    }
+
+    &__price {
+      height: 60px;
+
+      .val {
+        b {
+          font-size: 1.5em;
+          margin-left: 5px;
+        }
+      }
+
+      .installment {
+        color: green;
+      }
+    }
+
+    &__buy-btn {
+      background-color: #222831;
+      color: #fff;
+      padding: 15px 0;
+      margin-top: 10px;
+      cursor: pointer;
+      border-radius: 10px;
+      transition: background-color 0.2s;
+    }
+  }
+}
+
+.shelf-item__thumb {
+  height: 200px;
+  display: flex;
+  align-items: center;
+}

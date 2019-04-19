@@ -1,0 +1,130 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+
+}
+
+
+
+body {
+  margin: 0;
+  color: grey;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+
+
+main {
+  display: flex;
+  padding: 0;
+  max-width: 1200px;
+  margin: 50px auto 0 auto;
+  background-color: white;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+  body {
+    .filters {
+      width: 20%;
+    }
+
+    .shelf-container {
+      width: 80%;
+
+      .shelf-item {
+        width: 33.33%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  body {
+    .filters {
+      width: 25%;
+    }
+
+    .shelf-container {
+      width: 75%;
+
+      .shelf-item {
+        width: 50%;
+        padding: 10px;
+
+        &__title {
+          margin-top: 5px;
+          padding: 0;
+        }
+      }
+    }
+
+    .float-cart {
+      width: 100%;
+      right: -100%;
+
+      &--open {
+        right: 0;
+      }
+
+      &__close-btn {
+        left: 0px;
+        z-index: 2;
+        background-color: #222814;
+      }
+
+      &__header {
+        padding: 25px 0;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  body {
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 2%;
+      margin-top: 42px;
+    }
+
+    .filters {
+      width: 100%;
+      margin-right: 0;
+      text-align: center;
+
+      .title {
+        margin-bottom: 15px;
+      }
+    }
+
+    .shelf-container-header {
+      .products-found {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+      }
+
+      .sort {
+        width: 100%;
+        text-align: center;
+      }
+    }
+
+    .shelf-container {
+      width: 100%;
+
+      .shelf-item {
+        width: 80%;
+
+        &__buy-btn {
+          display: none;
+        }
+      }
+    }
+  }
+}

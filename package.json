@@ -1,0 +1,62 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.9.3",
+    "@material-ui/icons": "^3.0.2",
+    "autosuggest-highlight": "^3.1.1",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "concurrently": "^4.0.1",
+    "cors": "^2.8.5",
+    "downshift": "^3.2.7",
+    "express": "^4.16.4",
+    "moxios": "^0.4.0",
+    "react": "^16.8.6",
+    "react-autosuggest": "^9.4.3",
+    "react-dom": "^16.8.6",
+    "react-redux": "^5.1.1",
+    "react-scripts": "^2.1.8",
+    "reactstrap": "^8.0.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"react-scripts start\"",
+    "server": "nodemon server/app",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!/node_modules/",
+      "!src/index.js",
+      "!src/Root.js"
+    ]
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.12.1",
+    "enzyme-to-json": "^3.3.4",
+    "fetch-mock": "^7.3.1",
+    "node-sass": "^4.10.0",
+    "nodemon": "^1.18.11",
+    "prop-types": "^15.7.2",
+    "react-test-renderer": "^16.8.6",
+    "redux-mock-store": "^1.5.3",
+    "sinon": "^7.3.2",
+    "webdriverio": "^4.14.4"
+  }
+}

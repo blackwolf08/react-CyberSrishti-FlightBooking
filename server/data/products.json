@@ -1,0 +1,164 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "sku": 1,
+      "title": "New York To Delhi",
+      "description": "Indigo Flight IN381",
+      "availableSizes": ["DEL", "NYC"],
+      "style": "Bussiness and Economy",
+      "price": 120000,
+      "installments": 10,
+      "currencyId": "IND",
+      "currencyFormat": "₹"
+    },
+
+    {
+      "id": 2,
+      "sku": 1,
+      "title": "Kolkata To Mumbai",
+      "description": "AirIndia Flight AI381",
+      "availableSizes": ["MUM", "KOL"],
+      "style": "Business and Economy",
+      "price": 6000,
+      "installments": 5,
+      "currencyId": "INR",
+      "currencyFormat": "₹"
+    },
+
+    {
+      "id": 3,
+      "sku": 2,
+      "title": "Kolkata to Chennai",
+      "description": "Indigo Flight IN381",
+      "availableSizes": ["KOL", "CHE"],
+      "style": "Business and Economy",
+      "price": 5500,
+      "installments": 3,
+      "currencyId": "INR",
+      "currencyFormat": "₹"
+    },
+
+    {
+      "id": 4,
+      "sku": 2,
+      "title": "Chennai To Delhi",
+      "description": "Indigo Flight IN381",
+      "availableSizes": ["CHE", "DEL"],
+      "style": "Business and Economy",
+      "price": 6700,
+      "installments": 5,
+      "currencyId": "INR",
+      "currencyFormat": "₹"
+    },
+
+    {
+      "id": 5,
+      "sku": 2,
+      "title": "Banglore To Mumbai",
+      "description": "Indigo Flight IN381",
+      "availableSizes": ["BAN", "MUM"],
+      "style": "Business and Economy",
+      "price": 4400,
+      "installments": 3,
+      "currencyId": "INR",
+      "currencyFormat": "₹"
+    },
+    {
+      "id": 6,
+      "sku": 1,
+      "title": "Hyderabad To Delhi",
+      "description": "AirIndia Flight AB881",
+      "availableSizes": ["DEL", "NYC"],
+      "style": "Bussiness and Economy",
+      "price": 3700,
+      "installments": 10,
+      "currencyId": "IND",
+      "currencyFormat": "₹"
+    },
+    {
+      "id": 7,
+      "sku": 2,
+      "title": "Pune To Delhi",
+      "description": "Indigo Flight IN981",
+      "availableSizes": ["DEL", "PUN"],
+      "style": "Bussiness and Economy",
+      "price": 5500,
+      "installments": 10,
+      "currencyId": "IND",
+      "currencyFormat": "₹"
+    },
+    {
+      "id": 8,
+      "sku": 2,
+      "title": "Mumbai To Pune",
+      "description": "Indigo Flight IN999",
+      "availableSizes": ["MUM", "PUN"],
+      "style": "Bussiness and Economy",
+      "price": 4300,
+      "installments": 10,
+      "currencyId": "IND",
+      "currencyFormat": "₹"
+    },
+    {
+      "id": 9,
+      "sku": 1,
+      "title": "Chennai To New York",
+      "description": "Airindia Flight AI767",
+      "availableSizes": ["CHE", "NYC"],
+      "style": "Bussiness and Economy",
+      "price": 123500,
+      "installments": 10,
+      "currencyId": "IND",
+      "currencyFormat": "₹"
+    },
+    {
+      "id": 10,
+      "sku": 2,
+      "title": "England To New York",
+      "description": "Indigo Flight IN101",
+      "availableSizes": ["ENG", "NYC"],
+      "style": "Bussiness and Economy",
+      "price": 66700,
+      "installments": 10,
+      "currencyId": "IND",
+      "currencyFormat": "₹"
+    },
+    {
+      "id": 11,
+      "sku": 4,
+      "title": "England To New York",
+      "description": "Jet Airways Flight JA101",
+      "availableSizes": ["ENG", "NYC"],
+      "style": "Bussiness and Economy",
+      "price": 68500,
+      "installments": 80,
+      "currencyId": "IND",
+      "currencyFormat": "₹"
+    },
+    {
+      "id": 12,
+      "sku": 4,
+      "title": "Delhi To New Mumbai",
+      "description": "Jet Airways Flight IN101",
+      "availableSizes": ["DEL", "MUM"],
+      "style": "Bussiness and Economy",
+      "price": 5400,
+      "installments": 10,
+      "currencyId": "IND",
+      "currencyFormat": "₹"
+    },
+    {
+      "id": 13,
+      "sku": 3,
+      "title": "England To New York",
+      "description": "Spicejet Flight SJ133",
+      "availableSizes": ["ENG", "NYC"],
+      "style": "Bussiness and Economy",
+      "price": 63000,
+      "installments": 10,
+      "currencyId": "IND",
+      "currencyFormat": "₹"
+    }
+  ]
+}
